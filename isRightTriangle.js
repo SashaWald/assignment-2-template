@@ -1,5 +1,5 @@
 const isRightTriangle = (a, b, c) => {
-    if(a === 0 || b === 0 || c ===0){
+    if(a <= 0 || b <= 0 || c <=0){
         return false
     }
     if(Math.pow(a,2)+Math.pow(b,2) === Math.pow(c,2)){
