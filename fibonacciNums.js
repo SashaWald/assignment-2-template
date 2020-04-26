@@ -1,7 +1,7 @@
   
 const fibonacciNums = (n) => {
     let fibonacci = [0,1]
-    if (n === 0){
+    if (n <= 0){
         return []
     }
     else if (n === 1){
